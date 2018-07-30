@@ -1,0 +1,135 @@
+/* Setup */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #383838;
+}
+
+/* Landing */
+
+#landing {
+  background-image: url('../imgs/gold.jpg');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#landing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#landing-text h1 {
+  text-transform: uppercase;
+  font-size: 5rem;
+}
+
+/* Navbar */
+
+#nav {
+  background-color: black;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav-inner {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#nav-inner a {
+  text-decoration: none;
+  color: #ffcc00;
+  border: 0.1rem solid #ffcc00;
+  border-radius: 0.3rem;
+  font-size: 3rem;
+  margin: 0.4rem;
+  padding: 0 0.3rem;
+}
+
+/* About */
+#about {
+  margin: 1rem;
+  font-size: 2rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+#about h3 {
+  color: #ffcc00;
+  text-align: center;
+}
+
+#about p {
+  color: black;
+}
+
+#about-mission {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+/* Services Header*/
+#services-header {
+  background-image: url('../imgs/gold.jpg');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 3rem;
+}
+
+/* Rental Header*/
+#rental-header {
+  background-image: url('../imgs/gold.jpg');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 3rem;
+}
+
+/* Contact Header */
+#contact-header {
+  background-image: url('../imgs/gold.jpg');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 3rem;
+}
+
+/* Events */
+.gray-hover:hover {
+  background-color: #383838;
+}
