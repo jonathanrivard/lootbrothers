@@ -9,6 +9,17 @@ html {
   background-color: #383838;
 }
 
+ul {
+  list-style-position: inside;
+}
+
+/* Header */
+#joke-header-container {
+  position: absolute;
+  z-index: 1;
+  color: white; 
+}
+
 /* Landing */
 
 #landing {
@@ -67,7 +78,7 @@ html {
 /* About */
 #about {
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   width: 80%;
   margin: 1rem auto;
 }
@@ -79,15 +90,40 @@ html {
 
 #about p {
   color: black;
+  font-size: 2rem;
 }
 
 #about-mission {
   background-color: #f4f4f4;
   padding: 1rem;
   border-radius: 0.3rem;
+  margin: 0.3rem;
 }
 
-/* Services Header*/
+#about-employees {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  margin: 0.3rem;
+}
+
+#about-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.7rem;
+}
+
+#about-contact-button {
+  text-align: center;
+  text-decoration: none;
+  color: #ffcc00;
+  border: 0.1rem solid #ffcc00;
+  border-radius: 0.3rem;
+  font-size: 3rem; 
+}
+
+/* Services */
 #services-header {
   background-image: url('../imgs/gold.jpg');
   width: 100%;
@@ -101,8 +137,51 @@ html {
   font-size: 3rem;
 }
 
-/* Rental Header*/
-#rental-header {
+#service-boxes {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.service-box {
+  background-color: #f4f4f4;
+  margin: 1rem;
+  font-size: 2.5rem;
+  width: 80%;
+  padding: 0.5rem;
+  line-height: 1.6;
+  border: 1.5rem solid black;
+  margin-bottom: 3rem;
+}
+
+.service-box h2 {
+  text-align: center;
+  color: #ffcc00;
+  background-color: black;
+  border-radius: 2rem;
+  line-height: 1.2;
+}
+
+.service-box li {
+  line-height: 1;
+  margin: 0.5rem;
+}
+
+.service-box-image {
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.service-box img {
+  width: 100%;
+  height: auto;
+  max-height: 17rem;
+  border: 0.2rem solid #ffcc00;
+}
+
+/* Shop Header*/
+#shop-header {
   background-image: url('../imgs/gold.jpg');
   width: 100%;
   background-position: center;
@@ -129,7 +208,36 @@ html {
   font-size: 3rem;
 }
 
+/* Footer */
+#joke-footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#joke-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: #808080;
+}
+
+#joke-footer a {
+  text-decoration: none;
+  color: #808080;
+  border: 0.1rem solid #808080;
+  padding: 0.2rem;
+  font-size: 2rem;
+  margin: 0.2rem;
+}
+
 /* Events */
 .gray-hover:hover {
   background-color: #383838;
+}
+
+.white-hover:hover {
+  background-color: white;
 }
