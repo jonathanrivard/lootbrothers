@@ -180,7 +180,7 @@ ul {
   border: 0.2rem solid #ffcc00;
 }
 
-/* Shop Header*/
+/* Shop */
 #shop-header {
   background-image: url('../imgs/gold.jpg');
   width: 100%;
@@ -194,7 +194,33 @@ ul {
   font-size: 3rem;
 }
 
-/* Contact Header */
+#shop-about-container {
+  margin: 1rem;
+  font-size: 2.5rem;
+  width: 80%;
+  margin: 1rem auto;
+
+  
+}
+
+#shop-about {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  margin: 0.3rem;
+}
+
+#shop-about-container h3 {
+  color: #ffcc00;
+  text-align: center;
+}
+
+#shop-about-container p {
+  color: black;
+  font-size: 2rem;
+}
+
+/* Contact */
 #contact-header {
   background-image: url('../imgs/gold.jpg');
   width: 100%;
@@ -208,11 +234,38 @@ ul {
   font-size: 3rem;
 }
 
+#contact-container {
+  margin: 1rem;
+  font-size: 2.5rem;
+  width: 80%;
+  margin: 1rem auto;
+
+  
+}
+
+#contact {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  margin: 0.3rem;
+}
+
+#contact-container h3 {
+  color: #ffcc00;
+  text-align: center;
+}
+
+#contact-container p {
+  color: black;
+  font-size: 2rem;
+}
+
 /* Footer */
 #joke-footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2rem;
 }
 
 #joke-footer {
