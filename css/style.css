@@ -168,16 +168,18 @@ ul {
 }
 
 .service-box-image {
-  width: 80%;
+  width: 60vw;
+  height: 40vw;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0.2em auto;
+  border: 0.2rem solid #ffcc00;
 }
 
 .service-box img {
-  width: 100%;
-  height: auto;
-  max-height: 17rem;
-  border: 0.2rem solid #ffcc00;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Shop */
@@ -293,4 +295,33 @@ ul {
 
 .white-hover:hover {
   background-color: white;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 540px) and (max-width: 950px){
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1300px){
+  html {
+    font-size: 14px;
+  }
+
+  .service-box-image {
+    width: 40vw;
+    height: 30vw;
+  }
+}
+
+@media only screen and (min-width: 1300px){
+  html {
+    font-size: 16px;
+  }
+
+  .service-box-image {
+    width: 30vw;
+    height: 20vw;
+  }
 }
